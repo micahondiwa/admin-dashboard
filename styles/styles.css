@@ -1,0 +1,95 @@
+.flex-container {
+    display: flex;
+    flex: 1;
+}
+
+.left-pane {
+    text-align: center;
+    background: #00BFFF;
+    color: white;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.dashboard,
+.home,
+.profile,
+.messages,
+.history,
+.tasks,
+.communities,
+.settings,
+.support,
+.privacy {
+    display: flex;
+    flex: 1;
+    padding-left: 15px;
+}
+
+.dashboard {
+    font-weight: bolder;
+    font-size: larger;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.communities {
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+
+.dashboard>div {
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.home>div {
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.profile>div {
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.messages>div {
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.history>div {
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.tasks>div {
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.communities>div {
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.settings>div {
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.support>div {
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.privacy>div {
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+
+.right-pane {
+    background-color: #98AFC7;
+}
