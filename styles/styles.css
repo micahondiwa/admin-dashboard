@@ -93,3 +93,48 @@
 .right-pane {
     background-color: #98AFC7;
 }
+
+.search-bar {
+    display: flex;
+    flex: 1;
+    padding-top: 15px;
+
+}
+.search-bar > div {
+    padding: 10px;
+}
+
+.greetings, .greetings1 {
+    display: flex;
+    flex: 1;
+}
+
+.user-info {
+    display: flex;
+    flex: 1;
+}
+
+.header {
+    background-color: white;
+}
+
+.user-info button {
+    font-size: 16px;
+    font-weight: bold;
+
+    color: #FFFFFF;
+    background-color: #5995DA;
+
+    border: none;
+    border-radius: 3px;
+
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.new,
+.upload,
+.share {
+    justify-content: space-between;
+    padding: 10px;
+}
